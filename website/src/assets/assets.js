@@ -41,6 +41,39 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import Mann_mera from  './Mann_mera.mp3'
+import Atrangi_yaari from  './Atrangi_yaari.mp3'
+import Jaane_kyu from  './Jaane_kyu.mp3'
+import Kun_faya_Kun from  './Kun_faya_Kun.mp3'
+import Tum_se_hi from  './Tum_se_hi.mp3'
+import Abhi_kuch_dino_se from  './Abhi_kuch_dino_se.mp3'
+import Zoobi_Doobi from  './Zoobi_Doobi.mp3'
+import Hum_jo_chalne from  './Hum_jo_chalne.mp3'
+import Zubi_Dubi from  './Zubi_Dubi.jpg'
+import Rockstar from  './Rockstar.jpg'
+import Jab_We_Met from  './Jab_We_Met.jpg'
+import Jaane_KYU from  './Jaane_KYU.jpg'
+import Atrangi from  './Atrangi.webp'
+import Mann from  './Mann.webp'
+import Abhi_kuch from  './Abhi_kuch.jpg'
+import poster from  './poster.jpeg'
+import poster1 from  './poster1.jpeg'
+import poster2 from  './poster2.jpeg'
+import poster3 from  './poster3.jpeg'
+import poster4 from  './poster4.jpeg'
+import bag from './bag.jpg'
+import logo from './logo.jpeg'
+import logo_1 from './logo_1.jpeg'
+import logo_3 from './logo_3.png'
+import avatar from './avatar.jpeg'
+import avatar_1 from './avatar_1.jpeg'
+import avatar_2 from './avatar_2.jpeg'
+import avatar_3 from './avatar_3.jpeg'
+import avatar_4 from './avatar_4.jpeg'
+import avatar_5 from './avatar_5.jpeg'
+import avatar_6 from './avatar_6.jpeg'
+import avatar_7 from './avatar_7.jpeg'
+
 
 export const assets = {
     bell_icon,
@@ -66,42 +99,75 @@ export const assets = {
     arrow_left,
     arrow_right,
     spotify_logo,
-    clock_icon
+    clock_icon,
+    Mann_mera,
+    Atrangi_yaari,
+    Jaane_kyu,
+    Abhi_kuch_dino_se,
+    Tum_se_hi,
+    Kun_faya_Kun,
+    Zoobi_Doobi,
+    Hum_jo_chalne,
+    Zubi_Dubi,
+    Rockstar,
+    Jab_We_Met,
+    Jaane_KYU,
+    Atrangi,
+    Mann,
+    Abhi_kuch,
+    poster1,
+    poster2,
+    poster3,
+    poster4,
+    bag,
+    logo,
+    logo_1,
+    logo_3,
+    avatar,
+    avatar_1,
+    avatar_2,
+    avatar_3,
+    avatar_4,
+    avatar_5,
+    avatar_6,
+    avatar_7
+
+    
 }
 
 export const albumsData = [
     {   
         id:0,
-        name: "Top 50 Global",
-        image: img8,
+        name: "Bollywood Tadka",
+        image: poster,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#2a4365"
     },
     {   
         id:1,
-        name: "Top 50 India",
-        image: img9,
+        name: "Moody Mix",
+        image: poster1,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#22543d"
     },
     {   
         id:2,
         name: "Trending India",
-        image: img10,
+        image: poster2,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#742a2a"
     },
     {   
         id:3,
         name: "Trending Global",
-        image: img16,
+        image: poster3,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#44337a"
     },
     {   
         id:4,
-        name: "Mega Hits,",
-        image: img11,
+        name: "Mega Hits",
+        image: poster4,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#234e52"
     },
@@ -117,65 +183,65 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
-        image: img1,
-        file:song1,
+        name: "Mann mera",
+        image: Mann,
+        file:Mann_mera,
         desc:"Put a smile on your face with these happy tunes",
         duration:"3:00"
     },
     {
         id:1,
-        name: "Song Two",
-        image: img2,
-        file:song2,
+        name: "Atrangi yaari",
+        image: Atrangi,
+        file:Atrangi_yaari,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:20"
     },
     {
         id:2,
-        name: "Song Three",
-        image: img3,
-        file:song3,
+        name: "Tum se hi",
+        image: Jab_We_Met,
+        file:Tum_se_hi,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:32"
     },
     {
         id:3,
-        name: "Song Four",
-        image: img4,
-        file:song1,
+        name: "Kun faya kun",
+        image: Rockstar,
+        file:Kun_faya_Kun,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:50"
     },
     {
         id:4,
-        name: "Song Five",
-        image: img5,
-        file:song2,
+        name: "Jaane kyu",
+        image: Jaane_KYU,
+        file:Jaane_kyu,
         desc:"Put a smile on your face with these happy tunes",
         duration:"3:10"
     },
     {
         id:5,
-        name: "Song Six",
-        image: img14    ,
-        file:song3,
+        name: "Abhi kuch dino se",
+        image: Abhi_kuch    ,
+        file:Abhi_kuch_dino_se,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:45"
     },
     {
         id:6,
-        name: "Song Seven",
-        image: img7,
-        file:song1,
+        name: "Zoobi Doobi",
+        image: Zubi_Dubi,
+        file:Zoobi_Doobi,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:18"
     },
     {
         id:7,
-        name: "Song Eight",
-        image: img12,
-        file:song2,
+        name: "Ham jo chalne lage",
+        image: Jab_We_Met,
+        file:Hum_jo_chalne,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:35"
     }
