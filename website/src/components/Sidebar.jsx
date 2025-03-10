@@ -1,6 +1,9 @@
 import React, { useEffect, useRef } from 'react'
 import{assets} from '../assets/assets'
 import { useNavigate } from 'react-router-dom'
+import { FaPencilAlt } from "react-icons/fa";
+
+
 const Sidebar = () => {
   
 const navigate = useNavigate();
@@ -32,6 +35,14 @@ const navigate = useNavigate();
                 <img className='w-5' src={assets.arrow_icon} alt=""/>
                 <img className='w-5' src={assets.plus_icon} alt=""/>
             </div>
+
+        </div>
+        <div onClick={()=>(navigate("/review"))} className='pl-2 pt-3'>
+          {/* <p className='pt-1 pl-16  w-20 font-bold'>Review</p>
+           */}
+           <button className="flex items-center px-4 py-3 bg-red-900 text-white rounded-lg hover:bg-slate-700 pl-5">
+      <FaPencilAlt className="mr-2" /> Write a Review
+    </button>
         </div>
         <div className='p-4 bg-slate-800 m-2 rounded font-semibold flex flex-col items-start justify-start gap-1 pl-4'>
             <h1>Create your first playlist</h1>
